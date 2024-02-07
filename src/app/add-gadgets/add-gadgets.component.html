@@ -1,0 +1,20 @@
+<div class="container custom-container mb-5">
+    <div class="col-md-12">
+        <h3 class="mb-3 text-center">Add Gadget</h3>
+        <div class="mb-3">
+            <input type="text" [(ngModel)]="gadgetDetails.name" class="form-control" placeholder="Name">
+        </div>
+        <div class="mb-3">
+            <input type="text" [(ngModel)]="gadgetDetails.image" class="form-control" placeholder="Enter image Url">
+        </div>
+        <div class="mb-3">
+            <input type="text" [(ngModel)]="gadgetDetails.price" class="form-control" placeholder="price">
+        </div>
+        <div class="mb-3">
+            <input type="text" [(ngModel)]="gadgetDetails.desc" class="form-control" placeholder="desc">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-succes btn-lg btn-block" (click)="addGadget(gadgetDetails)" type="submit">Add Gadget</button>
+        </div>
+    </div>
+</div>

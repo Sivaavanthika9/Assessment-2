@@ -1,0 +1,66 @@
+<div class="container">
+<div >
+  
+  <div class="container">
+    <form [formGroup]="searchForm">
+      <div id="demo1">
+        <input
+        type="text"
+        formControlName="searchText"
+        (keyup)="onSearchTextChange($event)"
+        placeholder="Serach here"
+      />
+      </div>
+      <div id="demo">
+        <button class="btn btn-outline-primary" routerLink="/add-gadgets">
+          add gadget
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+</div>
+
+<div class="container custom-ontainer-2 mt-5">
+  <div class="no-data text-center" *ngIf="gadget.length == 0"></div>
+  <div *ngIf="gadget.length !== 0">
+    <h3 class="mb-3 text-center">gadget List</h3>
+    <div class="col-md-12">
+      <!-- <table class="col-md-12"> -->
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+           
+            <th scope="col">Name</th>
+            <th scope="col">image</th>
+            <th scope="col">price</th>
+            <th scope="col">description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let g of gadget">
+           
+            <td>{{ g.name }}</td>
+            <td><img src="{{ g.image }}" /></td>
+            <td>{{ g.price }}</td>
+            <td>{{ g.desc }}</td>
+            <td>
+              <span
+                class="edit btn btn-sm btn-outline-primary me-2"
+                (click)="edit(g.id)"
+                >Edit</span
+              >
+              <span
+                class="delete edit btn btn-sm btn-outline-danger"
+                (click)="deleteGadget(g.id)"
+                >delete</span
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    `
+  </div>
+</div>

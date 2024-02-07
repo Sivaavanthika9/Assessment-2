@@ -1,0 +1,53 @@
+{
+  "gadgets": [
+    {
+      "id": "1",
+      "name": "phone1",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15hero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369781",
+      "price": "50000",
+      "desc": "a device that uses either a system of wires along which electrical signals are sent or a system of radio signals to make it possible for you to speak to someone in another place who has a similar device: Just then, his phone rang."
+    },
+    {
+      "id": "bd00",
+      "name": "phone",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818",
+      "price": "69000",
+      "desc": "a device that uses either a system of wires along which electrical signals are sent or a system of radio signals to make it possible for you to speak to someone in another place who has a similar device: Just then, his phone rang."
+    },
+    {
+      "id": "406d",
+      "name": "phone",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818",
+      "price": "69000",
+      "desc": "a device that uses either a system of wires along which electrical signals are sent or a system of radio signals to make it possible for you to speak to someone in another place who has a similar device: Just then, his phone rang."
+    },
+    {
+      "id": "2761",
+      "name": "phone",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-card-40-iphone15prohero-202309_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086369818",
+      "price": "69000",
+      "desc": "a device that uses either a system of wires along which electrical signals are sent or a system of radio signals to make it possible for you to speak to someone in another place who has a similar device: Just then, his phone rang."
+    },
+    {
+      "id": "c7f6",
+      "name": "mi",
+      "image": "https://asset.conrad.com/media10/isa/160267/c1/-/en/002757643PI00/image.jpg?x=400&y=400&format=jpg&ex=400&ey=400&align=center",
+      "price": "70000",
+      "desc": "a device that uses either a system of wires along which electrical signals are sent or a system of radio signals to make it possible for you to speak to someone in another place who has a similar device: Just then, his phone rang."
+    },
+    {
+      "id": "c7f6",
+      "name": "redmi",
+      "image": "https://asset.conrad.com/media10/isa/160267/c1/-/en/002757643PI00/image.jpg?x=400&y=400&format=jpg&ex=400&ey=400&align=center",
+      "price": "70000",
+      "desc": "a device that uses either a system of wires along which electrical signals are sent or a system of radio signals to make it possible for you to speak to someone in another place who has a similar device: Just then, his phone rang."
+    },
+    {
+      "id": "1d51",
+      "name": "redmi-pro",
+      "image": "https://asset.conrad.com/media10/isa/160267/c1/-/en/002757643PI00/image.jpg?x=400&y=400&format=jpg&ex=400&ey=400&align=center",
+      "price": "70000",
+      "desc": "a device that uses either a system of wires along which electrical signals are sent or a system of radio signals to make it possible for you to speak to someone in another place who has a similar device: Just then, his phone rang."
+    }
+  ]
+}
